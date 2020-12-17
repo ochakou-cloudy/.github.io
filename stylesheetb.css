@@ -1,0 +1,413 @@
+body {
+  font-family: "游ゴシック"
+}
+
+/*header*/
+header {
+  width: 976px;
+  overflow: hidden;
+  margin: 16px auto;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 0px;
+}
+
+header h1{
+  float: left;
+  padding-top: 18px;
+  padding-left: 15px;
+  font-size: 30px;
+}
+
+#aiu_navi a {
+  color: white;
+  background-color: black;
+  text-decoration:  none;
+  list-style: none;
+  padding: 2px 5px;
+  display: block;
+  margin-right: 15px;
+}
+
+#aiu_navi a:hover {
+   opacity: 0.7;
+}
+
+#aiu_navi ul {
+  list-style: none;
+  float: right;
+}
+
+#aiu_navi ul li {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+#eo_navi {
+  width: 980px;
+  overflow: hidden;
+  margin: 16px auto;
+  margin-top: 0px;
+  border-top: none;
+}
+
+#eo_navi ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#eo_navi ul li {
+  width: 194px;
+  float: left;
+  margin-left: 1px;
+  text-align: center;
+}
+
+#eo_navi ul li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 16px;
+  background-color: #5C4033;
+  color: #fff;
+}
+
+#eo_navi ul li a:hover {
+  background-color: #B87333;
+}
+
+@media screen and (max-width : 768px){
+  header,
+  #aiu_navi,
+  headertwo,
+  #eo_navi{
+    width: 100%;
+  }
+  header h1 {
+    float: none;
+    text-align: center;
+    padding-left: 0;
+  }
+  header ul{
+    display: none;
+  }
+  #eo_navi ul li {
+    width: 50%;
+    padding: 0.5px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  #eo_navi ul li a {
+    margin: 0;
+  }
+  #eo_navi ul li:last-child{
+    width: 100%;
+  }
+}
+/*header*/
+
+/*footer*/
+footer {
+  width: 976px;
+  height: 140px;
+  overflow: hidden;
+  margin: 16px auto;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 0px;
+}
+
+footer h1{
+  float: left;
+  padding-left: 15px;
+}
+
+#footer_nav {
+  position: relative;
+}
+
+#kaki_navi a {
+  color: black;
+  text-decoration:  none;
+  list-style: none;
+  display: block;
+}
+
+#kaki_navi ul {
+  width: 100px;
+  position: absolute;
+  left: 300px;
+  list-style: none;
+}
+
+#kaki_navi ul li {
+  margin-bottom: 2px;
+}
+
+#kuke_navi a {
+  color: black;
+  text-decoration:  none;
+  list-style: none;
+  display: block;
+}
+
+#kuke_navi ul {
+  list-style: none;
+  padding-left: 490px;
+}
+
+#kuke_navi ul li {
+  margin-bottom: 2px;
+}
+
+@media screen and (max-width : 768px){
+  footer,
+  #footer_nav,
+  #kaki_navi,
+  #footera_nav,
+  #kuke_navi{
+    width: 100%;
+  }
+
+  footer {
+    height: 320px;
+  }
+
+  #kaki_navi ul {
+    position: absolute;
+    left: 0;
+    top: 120px;
+    list-style: none;
+  }
+
+  #kuke_navi ul {
+    list-style: none;
+    width: 200px;
+    padding-left: 40px;
+    padding-top: 235px;
+  }
+
+}
+/*footer*/
+
+/*wrapper*/
+#wrapper {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.section-title {
+  width: 958px;
+  overflow: hidden;
+  margin: 16px auto;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 0px;
+  height: 80px;
+  padding: 20px 0 0 20px;
+}
+
+.lessons {
+  padding: 0 200px;
+  overflow: hidden;
+}
+
+.lesson {
+  float: left;
+  text-align : center;
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+.lesson-icon h3 {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width : 768px){
+  #main h2,
+  #main h3 {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 0;
+  }
+
+  #wrapper {
+    width: 100%;
+  }
+
+  .lessons {
+    padding: 0;
+    overflow: hidden;
+  }
+}
+
+#kakao img {
+  width: 500px;
+}
+
+#point h4 {
+  padding-left: 15px;
+  font-size: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+#point section {
+  overflow: hidden;
+}
+
+#point figure {
+  width: 500px;
+  margin: 0;
+  float: left;
+}
+
+#point figcaption {
+  text-align: center;
+  font-size: 10px;
+}
+
+#kakao p {
+  float: right;
+  padding-top: 100px;
+  padding-right: 45px;
+}
+
+#design p {
+  float: left;
+  padding-top: 80px;
+  margin-left: 50px;
+}
+
+.a {
+  float: right;
+}
+
+#design a {
+  float: right;
+  padding-top: 100px;
+  padding-right: 45px;
+}
+
+.b{
+  float: left;
+}
+
+#QRcode p {
+  float: left;
+  padding-top: 80px;
+  margin-left: 50px;
+}
+
+#QRcode a {
+  float: right;
+}
+
+#string p {
+  float: right;
+  padding-top: 80px;
+  padding-right: 60px;
+}
+
+#string img {
+  width: 500px;
+  float: left;
+}
+
+@media screen and (max-width : 768px){
+  img {
+    max-width: 100%;
+  }
+
+  #main,
+  .section-title,
+  #point,
+  #kakao,
+  #design,
+  #QRcode,
+  #string,
+  .roudou {
+    width: 100%;
+  }
+
+  .a,
+  .b {
+    width: 100%;
+  }
+
+  #point figure {
+    width: 100%;
+    margin: 0;
+    float: left;
+  }
+
+  #point h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  #point p,
+  #point a {
+    font-size: 13px;
+  }
+
+  #kakao p {
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+
+  #design p {
+    text-align: center;
+    padding-top: 0;
+    margin-left: 0;
+    float: none;
+  }
+
+  #design img {
+    margin-bottom: 13px;
+  }
+
+  #design a {
+    text-align: center;
+    padding-top: 0;
+    padding-right: 0;
+    float: none;
+    display: block;
+  }
+
+  #QRcode p {
+    float: none;
+    padding-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  #QRcode a {
+    float: none;
+  }
+
+  #QRcode img {
+    margin-bottom: 13px;
+  }
+
+  #string p {
+    float: none;
+    padding-top: 0px;
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  #string img {
+    width: 500px;
+    float: none;
+  }
+}
+
+.roudou {
+  margin-top: 10px;
+  text-align: center;
+}
