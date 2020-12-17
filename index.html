@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>お茶高×CLOUDY</title>
+    <meta name="viewport" content="width=dvice-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+
+    <!--ヘッダー-->
+    <header>
+      <nav id="aiu_navi">
+        <h1>お茶の水女子大学附属高等学校家庭科×CLOUDY</h1>
+        <ul>
+          <li class="current"><a href="index.html">HOME</a></li>
+          <li><a href="#aaa">アンケートフォーム</a></li>
+          <li><a href="https://cloudy-tokyo.com/">CLOUDYホームページ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <headertwo>
+      <nav id="eo_navi">
+        <ul>
+          <li><a href="torikuminaiyou.html">取り組み内容</a></li>
+          <li><a href="sakuhinnsyoukai.html">作品紹介</a></li>
+          <li><a href="ochakouseinokoe.html">お茶高生の声</a></li>
+          <li><a href="tagu.html">タグ</a></li>
+          <li><a href="index.html#aaa">アンケートフォーム</a></li>
+        </ul>
+      </nav>
+    </headertwo>
+    <!--ヘッダー-->
+
+    <!--wrapper-->
+    <div id="wrapper">
+      <!--メインビジュアル画像-->
+      <div id="main_visual">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <script type="text/javascript">
+          $(document).ready(function(){
+              $('.slider').bxSlider({
+                  auto: true,
+                  pause: 5000,
+                });
+              });
+        </script>
+        <div class="slider">
+          <img src="top/topa.jpg" alt="お茶高×CLOUDY">
+          <img src="top/裁縫.jpg" alt="現地">
+          <img src="top/商品.jpg" alt="商品">
+          <img src="top/タグ(仮).jpg" alt="タグ">
+        </div>
+      </div>
+      <!--メインビジュアル画像-->
+
+      <!--メイン-->
+      <div id="main">
+        <section id="point">
+          <h1><img src="toplogo.png" alt="お茶高×CLOUDY"></h1>
+          <section>
+            <img src="top紹介文.png">
+        </section>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="top取り組み内容.png">
+              <h2>取り組み内容</h2>
+              <p><a href="torikuminaiyou.html">詳細を見る</a></p>
+            </div>
+          </div>
+           <div class="lesson">
+            <div class="lesson-icon">
+              <img src="top作品紹介.png">
+              <h2>作品紹介</h2>
+              <p><a href="sakuhinnsyoukai.html">詳細を見る</a></p>
+            </div>
+          </div>
+           <div class="lesson">
+            <div class="lesson-icon">
+              <img src="topお茶高生の声.png">
+              <h2>お茶高生の声</h2>
+              <p><a href="ochakouseinokoe.html">詳細を見る</a></p>
+            </div>
+          </div>
+           <div class="lesson">
+            <div class="lesson-icon">
+              <img src="topタグ.png">
+              <h2>タグ</h2>
+              <p><a href="tagu.html">詳細を見る</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h2 class="section-title">アンケートフォーム</h2>
+          <form id="entry">
+            <dl>
+              <dt>お茶高家庭科×CLOUDYの取り組みにご意見・ご感想等がありましたら、ご自由にお書きください。</dt>
+              <dd>
+                <textarea name="detail" id="detail"></textarea>
+              </dd>
+              <a name="aaa"></a>
+            </dl>
+            <p id="submit_botton_cover">
+              <input type="submit" id="submit_botton" value="送信">
+            </p>
+          </form>
+        </div>
+
+      </div>
+      <!--メイン-->
+    </div>
+    <!--wrapper-->
+
+    <!--フッター-->
+    <footer>
+      <div id="footer_nav">
+        <h1><a href="index.html"><img src="footer_logo.png" alt="お茶高家庭科×CLOUDY"></a></h1>
+        <nav id="kaki_navi">
+          <ul>
+            <li><a href="torikuminaiyou.html">取り組み内容</a></li>
+            <li><a href="sakuhinnsyoukai.html">作品紹介</a></li>
+            <li><a href="ochakouseinokoe.html">お茶高生の声</a></li>
+            <li><a href="tagu.html">タグ</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="footera_nav">
+        <nav id="kuke_navi">
+          <ul>
+            <li><a href="index.html#aaa">アンケートフォーム</a></li>
+            <li><a href="https://cloudy-tokyo.com/">CLOUDYホームページ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <!--フッター-->
+
+  </body>
+</html>
