@@ -1,0 +1,413 @@
+body {
+  font-family: "游ゴシック"
+}
+
+/*header*/
+header {
+  width: 976px;
+  overflow: hidden;
+  margin: 16px auto;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 0px;
+}
+
+header h1{
+  float: left;
+  padding-top: 18px;
+  padding-left: 15px;
+  font-size: 30px;
+}
+
+#aiu_navi a {
+  color: white;
+  background-color: black;
+  text-decoration:  none;
+  list-style: none;
+  padding: 2px 5px;
+  display: block;
+  margin-right: 15px;
+}
+
+#aiu_navi a:hover {
+   opacity: 0.7;
+}
+
+#aiu_navi ul {
+  list-style: none;
+  float: right;
+}
+
+#aiu_navi ul li {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+#eo_navi {
+  width: 980px;
+  overflow: hidden;
+  margin: 16px auto;
+  margin-top: 0px;
+  border-top: none;
+}
+
+#eo_navi ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#eo_navi ul li {
+  width: 194px;
+  float: left;
+  margin-left: 1px;
+  text-align: center;
+}
+
+#eo_navi ul li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 16px;
+  background-color: #5C4033;
+  color: #fff;
+}
+
+#eo_navi ul li a:hover {
+  background-color: #B87333;
+}
+
+@media screen and (max-width : 768px){
+  #main h2 {
+    text-align: center;
+    padding-left: 0;
+    padding-top: 30px;
+  }
+
+  header,
+  #aiu_navi,
+  headertwo,
+  #eo_navi{
+    width: 100%;
+  }
+  header h1 {
+    float: none;
+    text-align: center;
+    padding-left: 0;
+  }
+  header ul{
+    display: none;
+  }
+  #eo_navi ul li {
+    width: 50%;
+    padding: 0.5px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  #eo_navi ul li a {
+    margin: 0;
+  }
+  #eo_navi ul li:last-child{
+    width: 100%;
+  }
+}
+/*header*/
+
+/*main*/
+.section-title {
+  overflow: hidden;
+  margin: 16px auto;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 0px;
+  height: 102px;
+  padding: 20px 0 0 20px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+#main h4 {
+  padding-left: 10px;
+}
+
+.introductions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+.introduction {
+  flex-basis: 32%;
+  text-align: center;
+}
+
+#main h3 {
+  margin-top: 10px;
+}
+
+@media screen and (max-width : 768px) {
+  #wrapper,
+  #main,
+  .introductions {
+    width: 100%;
+  }
+
+  #main h3 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width : 768px) {
+  #wrapper {
+    width: 980px;
+  }
+}
+
+@media screen and (max-width : 768px){
+  .introduction {
+    flex-basis: 48%;
+  }
+}
+
+.introduction img {
+  width: 100%;
+}
+
+
+/* 全体設定 */
+* {
+  box-sizing: border-box;
+  }
+
+/* ポップアップウインドウの設定 */
+.popup {
+  background-color: #efefef;
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 50vw;
+  height: 90vh;
+  overflow-y: scroll;
+  z-index: 20;
+}
+
+@media screen and (max-width : 768px){
+  .popup {
+    width: 80vw;
+    height: 90vh;
+  }
+}
+
+/* チェックボックスの初期設定 */
+#popup-on1, #popup-on2, #popup-on3, #popup-on4, #popup-on5, #popup-on6, #popup-on7, #popup-on8, #popup-on9, #popup-on10, #popup-on11, #popup-on12 {
+  display: none;
+}
+
+/* ポップアップウインドウを開く */
+#popup-on1:checked + .popup{
+  display: block;
+}
+
+#popup-on2:checked + .popup{
+  display: block;
+}
+
+#popup-on3:checked + .popup{
+  display: block;
+}
+
+#popup-on4:checked + .popup{
+  display: block;
+}
+
+#popup-on5:checked + .popup{
+  display: block;
+}
+
+#popup-on6:checked + .popup{
+  display: block;
+}
+
+#popup-on7:checked + .popup{
+  display: block;
+}
+
+#popup-on8:checked + .popup{
+  display: block;
+}
+
+#popup-on9:checked + .popup{
+  display: block;
+}
+
+#popup-on10:checked + .popup{
+  display: block;
+}
+
+#popup-on11:checked + .popup{
+  display: block;
+}
+
+#popup-on12:checked + .popup{
+  display: block;
+}
+
+/* 閉じるボタン */
+.btn-close{
+  background: #000;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px auto;
+  width: 95%;
+  text-align: center;
+}
+
+.btn-close:hover {
+  opacity: 0.7;
+}
+
+/* 開くボタン */
+.btn-open{
+  background: #fff;
+  border-radius: 10px;
+  color: #fff;
+  padding-top: 10px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-open:hover {
+  opacity: 0.6;
+}
+
+/* ポップアップの内容 */
+.popup-content{
+  margin: 30px auto 20px auto;
+  width: 90%;
+}
+
+.popup-content img {
+  width: 45%;
+}
+
+
+
+
+
+
+/*main*/
+
+
+
+/*footer*/
+footer {
+  width: 976px;
+  height: 140px;
+  overflow: hidden;
+  margin: 16px auto;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 0px;
+}
+
+footer h1{
+  float: left;
+  padding-left: 15px;
+}
+
+#footer_nav {
+  position: relative;
+}
+
+#kaki_navi a {
+  color: black;
+  text-decoration:  none;
+  list-style: none;
+  display: block;
+  width: 100px;
+}
+
+#kaki_navi ul {
+  width: 100px;
+  position: absolute;
+  left: 300px;
+  list-style: none;
+}
+
+#kaki_navi ul li {
+  margin-bottom: 2px;
+}
+
+#kuke_navi a {
+  color: black;
+  text-decoration:  none;
+  list-style: none;
+  display: block;
+  width: 170px;
+}
+
+#kuke_navi ul {
+  list-style: none;
+  padding-left: 490px;
+}
+
+#kuke_navi ul li {
+  margin-bottom: 2px;
+}
+
+@media screen and (max-width : 768px){
+  footer,
+  #footer_nav,
+  #kaki_navi,
+  #footera_nav,
+  #kuke_navi{
+    width: 100%;
+  }
+
+  footer {
+    height: 320px;
+  }
+
+  #kaki_navi ul {
+    position: absolute;
+    left: 0;
+    top: 120px;
+    list-style: none;
+  }
+
+  #kuke_navi ul {
+    list-style: none;
+    width: 200px;
+    padding-left: 40px;
+    padding-top: 235px;
+  }
+
+}
+/*footer*/
+
+#wrapper {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* お飾り */
+.orange {
+  color: #FF4F02;
+  font-weight: bold;
+}
+
+
+.kako {
+  width:100%;
+  font-size: 20px;
+  font-weight: bold;
+}
