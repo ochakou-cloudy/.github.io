@@ -1,0 +1,383 @@
+body {
+  font-family: "游ゴシック"
+}
+
+/*header*/
+header {
+  width: 976px;
+  overflow: hidden;
+  margin: 16px auto;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 0px;
+}
+
+header h1{
+  float: left;
+  padding-top: 18px;
+  padding-left: 15px;
+  font-size: 30px;
+}
+
+#aiu_navi a {
+  color: white;
+  background-color: black;
+  text-decoration:  none;
+  list-style: none;
+  padding: 2px 5px;
+  display: block;
+  margin-right: 15px;
+}
+
+#aiu_navi a:hover {
+   opacity: 0.7;
+}
+
+#aiu_navi ul {
+  list-style: none;
+  float: right;
+}
+
+#aiu_navi ul li {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+#eo_navi {
+  width: 980px;
+  overflow: hidden;
+  margin: 16px auto;
+  margin-top: 0px;
+  border-top: none;
+}
+
+#eo_navi ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#eo_navi ul li {
+  width: 194px;
+  float: left;
+  margin-left: 1px;
+  text-align: center;
+}
+
+#eo_navi ul li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 16px;
+  background-color: #5C4033;
+  color: #fff;
+}
+
+#eo_navi ul li a:hover {
+  background-color: #B87333;
+}
+
+@media screen and (max-width : 768px){
+  header,
+  #aiu_navi,
+  headertwo,
+  #eo_navi{
+    width: 100%;
+  }
+  header h1 {
+    float: none;
+    text-align: center;
+    padding-left: 0;
+  }
+  header ul{
+    display: none;
+  }
+  #eo_navi ul li {
+    width: 50%;
+    padding: 0.5px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  #eo_navi ul li a {
+    margin: 0;
+  }
+  #eo_navi ul li:last-child{
+    width: 100%;
+  }
+}
+/*header*/
+
+/*footer*/
+footer {
+  width: 976px;
+  height: 140px;
+  overflow: hidden;
+  margin: 16px auto;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 0px;
+}
+
+footer h1{
+  float: left;
+  padding-left: 15px;
+}
+
+#footer_nav {
+  position: relative;
+}
+
+#kaki_navi a {
+  color: black;
+  text-decoration:  none;
+  list-style: none;
+  display: block;
+}
+
+#kaki_navi ul {
+  width: 100px;
+  position: absolute;
+  left: 300px;
+  list-style: none;
+}
+
+#kaki_navi ul li {
+  margin-bottom: 2px;
+}
+
+#kuke_navi a {
+  color: black;
+  text-decoration:  none;
+  list-style: none;
+  display: block;
+}
+
+#kuke_navi ul {
+  list-style: none;
+  padding-left: 490px;
+}
+
+#kuke_navi ul li {
+  margin-bottom: 2px;
+}
+
+@media screen and (max-width : 768px){
+  footer,
+  #footer_nav,
+  #kaki_navi,
+  #footera_nav,
+  #kuke_navi{
+    width: 100%;
+  }
+
+  footer {
+    height: 320px;
+  }
+
+  #kaki_navi ul {
+    position: absolute;
+    left: 0;
+    top: 120px;
+    list-style: none;
+  }
+
+  #kuke_navi ul {
+    list-style: none;
+    width: 200px;
+    padding-left: 40px;
+    padding-top: 235px;
+  }
+
+}
+/*footer*/
+
+/*wrapper*/
+#wrapper {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/*main_visual*/
+#main_visual {
+  width: 930px;
+  margin: 0 auto 48px;
+}
+
+.slider img {
+  height: 520px;
+}
+
+@media screen and (max-width : 768px){
+  img {
+    max-width: 100%;
+  }
+
+  #main_visual,
+  #main,
+  #points,
+  #wrapper {
+    width: 100%;
+  }
+
+  .slider img {
+    height: auto;
+  }
+}
+
+#point {
+  text-align: center;
+}
+
+#point h1 {
+  margin-bottom: 15px;
+}
+
+/*lessons*/
+.lesson-icon img {
+  opacity: 0.6;
+  box-shadow: 3px 3px 5px rgba(0,0,0,1);
+  margin-bottom: 15px;
+}
+
+.lesson-icon:hover{
+  opacity: 0.8;
+}
+
+
+.lesson {
+  float: left;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.lesson-icon {
+  position:relative;
+}
+
+.lesson-icon h2 {
+  position:absolute;
+  top: 50px;
+  width:100%;
+  color:black;
+  font-size: 30px;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 110px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.lesson-icon p a {
+    color: black;
+}
+
+@media screen and (max-width : 768px){
+  .lesson {
+    width: 100%;
+  }
+
+  .lesson-icon h2 {
+    position:absolute;
+    top: 25px;
+    font-size: 30px;
+  }
+
+  .lesson-icon p {
+    position: absolute;
+    top: 95px;
+    width: 100%;
+    font-weight: bold;
+  }
+}
+
+/*アンケートフォーム*/
+
+.contact-form h2 {
+  width: 950px;
+  overflow: hidden;
+  margin: 16px auto;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 0px;
+  height: 80px;
+  text-align: left;
+  padding: 20px 0 0 20px;
+}
+
+#entry dl dt {
+  font-size: 18px;
+}
+
+#entry dl dd {
+  margin-left: 0;
+}
+
+
+#entry dl dt,
+#entry dl dd {
+  padding: 10px 10px 0 10px;
+  text-align: center;
+}
+
+#entry #detail {
+  width: 60em;
+  height: 10em;
+}
+
+#entry #submit_botton_cover {
+    text-align: center;
+}
+
+#entry #submit_botton {
+  background-color: #5C4033;
+  border: 1px solid #5C4033;
+  padding: 10px 40px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.1S liner;
+  float: right;
+  margin-right: 85px;
+}
+
+#entry #submit_botton:hover {
+  background-color: #B87333;
+}
+
+@media screen and (max-width : 768px){
+  #entry dl dt {
+    float: none;
+    width:  100%;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+
+  #entry dl dd {
+    width: 100%;
+    margin-left: 0;
+    border-left: none;
+    box-sizing: border-box;
+  }
+
+  #entry #interest {
+    max-width: 100%;
+  }
+
+  #entry #detail {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #entry #submit_botton{
+    margin-right: 10px;
+  }
+
+  .contact-form h2 {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
