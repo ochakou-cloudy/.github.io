@@ -135,7 +135,7 @@ footer h1{
 }
 
 #kaki_navi ul {
-  width: 100px;
+  width: 150px;
   position: absolute;
   left: 300px;
   list-style: none;
@@ -252,7 +252,7 @@ footer h1{
   padding-left: 15px;
   font-size: 20px;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 #point section {
@@ -288,7 +288,7 @@ footer h1{
 
 #design a {
   float: right;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-right: 45px;
 }
 
@@ -298,12 +298,16 @@ footer h1{
 
 #QRcode p {
   float: left;
-  padding-top: 80px;
+  padding-top: 10px;
   margin-left: 50px;
 }
 
 #QRcode a {
   float: right;
+}
+
+#QRcode h4 {
+  display: inline-block;
 }
 
 #string p {
@@ -315,6 +319,16 @@ footer h1{
 #string img {
   width: 500px;
   float: left;
+}
+
+#Leaflet p {
+  padding-top: 0px;
+  padding-left: 40px;
+  margin-top: 0;
+}
+
+#Leaflet h4{
+  display: inline-block;
 }
 
 @media screen and (max-width : 768px){
@@ -372,10 +386,6 @@ footer h1{
     float: none;
   }
 
-  #design img {
-    margin-bottom: 13px;
-  }
-
   #design a {
     text-align: center;
     padding-top: 0;
@@ -395,18 +405,10 @@ footer h1{
     float: none;
   }
 
-  #QRcode img {
-    margin-bottom: 13px;
-  }
-
   #string p {
     float: none;
     padding-top: 0px;
     padding-right: 0px;
-    text-align: center;
-  }
-
-  #string {
     text-align: center;
   }
 
@@ -417,8 +419,13 @@ footer h1{
   .roudou {
     font-size: 12px;
   }
-}
 
+  #Leaflet p {
+    float: none;
+    text-align: center;
+    padding: 0;
+  }
+}
 
 .roudou {
   margin-top: 10px;
