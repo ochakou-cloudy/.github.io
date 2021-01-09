@@ -281,7 +281,7 @@ footer h1{
 
 #syouhinkaihatu a {
   float: left;
-  margin-left: 150px;
+  margin-left: 100px;
   margin-top: 200px;
 }
 
@@ -289,8 +289,12 @@ footer h1{
   float: right;
 }
 
+.syouhinka1 {
+  text-align : center;
+}
+
+
 .syouhin img {
-  height: 300px;
   float: left;
 }
 
@@ -305,6 +309,9 @@ footer h1{
 .mokuteki {
   margin: 15px;
 }
+
+
+
 
 @media screen and (max-width : 768px){
   #point {
@@ -350,9 +357,12 @@ footer h1{
     float: none;
   }
 
+  .syouhinka1 img {
+    width: 100%;
+  }
+
   .syouhin img {
-    height: 150px;
-    float: left;
+    width: 100%;
     margin-bottom: 5px;
   }
 
@@ -365,5 +375,9 @@ footer h1{
     text-align: center;
     font-size: 13px;
     margin-bottom: 0;
+  }
+
+  .mokuteki {
+    font-size: 12px;
   }
 }
