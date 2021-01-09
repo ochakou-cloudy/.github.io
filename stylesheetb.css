@@ -358,6 +358,11 @@ footer h1{
     text-align: center;
     padding-top: 0px;
     padding-right: 0px;
+    float: none;
+  }
+
+  #point figure {
+    text-align: center;
   }
 
   #design p {
@@ -401,11 +406,19 @@ footer h1{
     text-align: center;
   }
 
+  #string {
+    text-align: center;
+  }
+
   #string img {
-    width: 500px;
     float: none;
   }
+
+  .roudou {
+    font-size: 12px;
+  }
 }
+
 
 .roudou {
   margin-top: 10px;
