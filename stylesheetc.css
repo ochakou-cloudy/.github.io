@@ -1,158 +1,363 @@
-<!--お茶高生の声-->
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>お茶高生の声|お茶高×CLOUDY</title>
-    <meta name="viewport" content="width=dvice-width, initial-scale=1">
-    <link rel="stylesheet" href="stylesheetc.css">
-  </head>
-  <body>
+body {
+  font-family: "游ゴシック"
+}
 
-    <!--ヘッダー-->
-    <header>
-      <nav id="aiu_navi">
-        <h1>お茶の水女子大学附属高等学校家庭科×CLOUDY</h1>
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="index.html#aaa">アンケートフォーム</a></li>
-          <li><a href="https://cloudy-tokyo.com/">CLOUDYホームページ</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!--ヘッダー-->
+/*header*/
+header {
+  width: 976px;
+  overflow: hidden;
+  margin: 16px auto;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 0px;
+}
 
-    <!--wrapper-->
-    <div id="wrapper">
-      <!--メイン-->
-      <div id="main">
-        <h2 class="section-title">お茶高生の声</h2>
-        <div class="quwstiona">
-          <div class="question_Box">
-            <div class="arrow_questiona">
-              Q　実際に商品開発に取り組んでみてどうでしたか？
-            </div>
-          </div>
-          <div class="question_Box">
-            <div class="arrow_answera1">
-              A 自分だったら何が欲しいか、家族に、友達に、どんなものを身に付けてほしいか考えながら作るには、とても楽しかった。
-            </div>
-          </div>
-          <div class="question_Box">
-            <div class="arrow_answera2">
-              A どれだけたくさんの人が身の回りのものを作っているか、それがどれだけ大変か身にもって感じた。
-            </div>
-          </div>
-          <div class="question_Box">
-            <div class="arrow_answera3">
-              A 商品開発を表面的に捉えていたが、実際に行うとその背景やプロセスなどに気付いた。一つ一つの商品に込められた思いの重さを実感することができた。
-            </div>
-          </div>
-          <div class="question_Box">
-            <div class="arrow_answera4">
-              A 実用性と作りやすさを考えて作るのが大変だった。アフリカの人たちと私たちをつなげるものになると考えると、とてもワクワクした。
-            </div>
-          </div>
-        </div>
-        <div class="quwstion">
-          <div class="question_Box">
-            <div class="arrow_questiona">
-              Q　どのような思いを込めて商品をつくりましたか？
-            </div>
-          </div>
-          <div class="question_Box">
-            <div class="arrow_answera3">
-              A ただ身に付けるためのものを作るのではなく、身に付けた人が鏡に写った自分を見て、今日も一日頑張ろう!と思える作品にする。
-            </div>
-          </div>
-          <div class="question_Box">
-            <div class="arrow_answera4">
-              A CLOUDYには「曇りの日を楽しく」という意味が含まれているそうなので、自然と目線が上がるような、身に付けていて元気が出るものにしたいと思って制作した。
-            </div>
-          </div>
-          <div class="question_Box">
-            <div class="arrow_answera1">
-              A CLOUDYの布は色鮮やかで、とても可愛くて元気が出る柄なため、その柄を活かせるデザインを常に意識して作った。
-            </div>
-          </div>
-          <div class="question_Box">
-            <div class="arrow_answera2">
-              A 多くの人の目に止まってもらえるよう、日頃から使うものをモチーフにした。
-            </div>
-          </div>
-        </div>
-        <div class="quwstionc">
-          <div class="question_Box">
-            <div class="arrow_questiona">
-              Q　このプロジェクトを通し、身近な生活で考えるようになったことはありますか？
-            </div>
-          </div>
-          <div class="question_Box">
-            <div class="arrow_answera1">
-              A 商品のトレーサビリティーに意識が向くようになった。また、商品を買う前に生産者などの商品の後ろにいる人のことを考えるようになった。
-            </div>
-          </div>
-          <div class="question_Box">
-            <div class="arrow_answera4">
-              A まず、安すぎるものはなぜそんなに安いのか考えるようになった。そして、フェアトレード商品の購入を意識している。
-            </div>
-          </div><div class="question_Box">
-            <div class="arrow_answera2">
-              A 身近なものにたくさんの人の苦労や思いやりが関わっていることを実感し、リサイクルなどをはじめ、少しでも多くの人の力になりたい思うようになった。
-            </div>
-          </div>
-        </div>
-        <div class="quwstiond">
-          <div class="question_Box">
-            <div class="arrow_questiona">
-              Q　このプロジェクトを通してあなたはどのような未来を描きますか？
-            </div>
-          </div>
-          <div class="question_Box">
-            <div class="arrow_answera3">
-              A 人・環境に優しいエシカル消費を、理解し実践できる未来。消費活動を立ち止まって見直してみる。そんなきっかけをこのプロジェクトで作れていたら嬉しい。
-            </div>
-          </div>
-          <div class="question_Box">
-            <div class="arrow_answera2">
-              A すべての子どもたちが教育を受け、友達を遊び、笑いあう日々を普通だと思える未来。そのためにはまず自分の意識を変えることが大切だと思った。
-            </div>
-          </div>
-          <div class="question_Box">
-            <div class="arrow_answera4">
-              A 一人でも多くの人がエシカル消費を知って、それを選択してくれる人が増える未来。それによって、幸せな生活を送れるようになる人が増えると思う。
-            </div>
-          </div>
-        </div>
+header h1{
+  float: left;
+  padding-top: 18px;
+  padding-left: 15px;
+  font-size: 30px;
+}
 
-      </div>
-      <!--メイン-->
-    </div>
-    <!--wrapper-->
+#aiu_navi a {
+  color: white;
+  background-color: black;
+  text-decoration:  none;
+  list-style: none;
+  padding: 2px 5px;
+  display: block;
+  margin-right: 15px;
+}
 
-    <!--フッター-->
-    <footer>
-      <div id="footer_nav">
-        <h1><a href="index.html"><img src="footer_logo.png" alt="お茶高家庭科×CLOUDY"></a></h1>
-        <nav id="kaki_navi">
-          <ul>
-            <li><a href="torikuminaiyou.html">取り組み内容</a></li>
-            <li><a href="sakuhinnsyoukai.html">作品紹介</a></li>
-            <li><a href="ochakouseinokoe.html">お茶高生の声</a></li>
-            <li><a href="tagu.html">タグ</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div id="footera_nav">
-        <nav id="kuke_navi">
-          <ul>
-            <li><a href="index.html#aaa">アンケートフォーム</a></li>
-            <li><a href="https://cloudy-tokyo.com/">CLOUDYホームページ</a></li>
-          </ul>
-        </nav>
-      </div>
-    </footer>
-    <!--フッター-->
+#aiu_navi a:hover {
+   opacity: 0.7;
+}
 
-  </body>
-</html>
+#aiu_navi ul {
+  list-style: none;
+  float: right;
+}
+
+#aiu_navi ul li {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+#eo_navi {
+  width: 980px;
+  overflow: hidden;
+  margin: 16px auto;
+  margin-top: 0px;
+  border-top: none;
+}
+
+#eo_navi ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#eo_navi ul li {
+  width: 194px;
+  float: left;
+  margin-left: 1px;
+  text-align: center;
+}
+
+#eo_navi ul li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 16px;
+  background-color: #5C4033;
+  color: #fff;
+}
+
+#eo_navi ul li a:hover {
+  background-color: #B87333;
+}
+
+@media screen and (max-width : 768px){
+  header,
+  #aiu_navi,
+  headertwo,
+  #eo_navi{
+    width: 100%;
+  }
+  header h1 {
+    float: none;
+    text-align: center;
+    padding-left: 0;
+  }
+  header ul{
+    display: none;
+  }
+  #eo_navi ul li {
+    width: 50%;
+    padding: 0.5px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  #eo_navi ul li a {
+    margin: 0;
+  }
+  #eo_navi ul li:last-child{
+    width: 100%;
+  }
+}
+/*header*/
+
+/*footer*/
+footer {
+  width: 976px;
+  height: 140px;
+  overflow: hidden;
+  margin: 16px auto;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 0px;
+}
+
+footer h1{
+  float: left;
+  padding-left: 15px;
+}
+
+#footer_nav {
+  position: relative;
+}
+
+#kaki_navi a {
+  color: black;
+  text-decoration:  none;
+  list-style: none;
+  display: block;
+}
+
+#kaki_navi ul {
+  width: 100px;
+  position: absolute;
+  left: 300px;
+  list-style: none;
+}
+
+#kaki_navi ul li {
+  margin-bottom: 2px;
+}
+
+#kuke_navi a {
+  color: black;
+  text-decoration:  none;
+  list-style: none;
+  display: block;
+}
+
+#kuke_navi ul {
+  list-style: none;
+  padding-left: 490px;
+}
+
+#kuke_navi ul li {
+  margin-bottom: 2px;
+}
+
+@media screen and (max-width : 768px){
+  footer,
+  #footer_nav,
+  #kaki_navi,
+  #footera_nav,
+  #kuke_navi{
+    width: 100%;
+  }
+
+  footer {
+    height: 320px;
+  }
+
+  #kaki_navi ul {
+    position: absolute;
+    left: 0;
+    top: 120px;
+    list-style: none;
+  }
+
+  #kuke_navi ul {
+    list-style: none;
+    width: 200px;
+    padding-left: 40px;
+    padding-top: 235px;
+  }
+
+}
+/*footer*/
+
+/*wrapper*/
+#wrapper {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.section-title {
+  width: 958px;
+  overflow: hidden;
+  margin: 16px auto;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 0px;
+  height: 80px;
+  padding: 20px 0 0 20px;
+}
+
+@media screen and (max-width : 768px){
+  #main h2,
+  #main h3 {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 0;
+  }
+
+  #wrapper {
+    width: 100%;
+  }
+}
+
+.arrow_questiona {
+  position: relative;
+  padding: 20px;
+  background-color: #bdffad;
+  width: 62%;
+  border-radius: 10px;
+  box-shadow: 6px 6px 0px 0px #318c30;         /* 吹き出し本体の影 */
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.arrow_questiona::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: -10px;
+  top: 12px;
+  border-right: 10px solid #318c30;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.arrow_questiona::after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: -10px;
+  top: 12px;
+  border-top: 10px solid transparent;
+  border-right: 10px solid #bdffad;
+  border-bottom: 10px solid transparent;
+}
+
+.arrow_answera1 {
+  margin-top: 5px;
+  position: relative;
+  padding: 20px;
+  background-color: #add8e6;
+  margin-right: 15px;
+  width:65%;
+  float: right;
+  border-radius: 10px;
+}
+
+.arrow_answera1::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  right: -10px;
+  top: 12px;
+  border-top: 10px solid transparent;
+  border-left: 10px solid #add8e6;
+  border-bottom: 10px solid transparent;
+}
+.arrow_answera2 {
+  margin-top: 5px;
+  position: relative;
+  padding: 20px;
+  background-color: #ffdab9;
+  margin-right: 15px;
+  width:65%;
+  float: right;
+  border-radius: 10px;
+}
+
+.arrow_answera2::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  right: -10px;
+  top: 12px;
+  border-top: 10px solid transparent;
+  border-left: 10px solid #ffdab9;
+  border-bottom: 10px solid transparent;
+}
+
+.arrow_answera3 {
+  margin-top: 5px;
+  position: relative;
+  padding: 20px;
+  background-color: #FFC6FF;
+  margin-right: 15px;
+  width:65%;
+  float: right;
+  border-radius: 10px;
+}
+
+.arrow_answera3::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  right: -10px;
+  top: 12px;
+  border-top: 10px solid transparent;
+  border-left: 10px solid #FFC6FF;
+  border-bottom: 10px solid transparent;
+}
+
+.arrow_answera4 {
+  margin-top: 5px;
+  position: relative;
+  padding: 20px;
+  background-color: #ffff99;
+  margin-right: 15px;
+  width:65%;
+  float: right;
+  border-radius: 10px;
+}
+
+.arrow_answera4::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  right: -10px;
+  top: 12px;
+  border-top: 10px solid transparent;
+  border-left: 10px solid #ffff99;
+  border-bottom: 10px solid transparent;
+}
+
+.question_Box{
+     width: 100%;
+     overflow: hidden;
+     margin-bottom: 8px;
+}
