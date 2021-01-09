@@ -333,11 +333,11 @@ footer h1{
   text-decoration:  none;
   list-style: none;
   display: block;
-  width: 100px;
+  width: 150px;
 }
 
 #kaki_navi ul {
-  width: 100px;
+  width: 150px;
   position: absolute;
   left: 300px;
   list-style: none;
